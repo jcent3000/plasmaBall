@@ -46,10 +46,10 @@ def smoosh_file(file):
     plt.plot(xlim, [0 0], ':r');
     plt.plot([0 0], ylim, ':r');
     plt.plot([5 5], ylim, ':k');
-    xlabel('seconds');
-    ylabel('z score');
-    title('plasma expt | expt = red | cntl = blue');
-    hold off;
-    drawnow;
+    plt.xlabel('seconds');
+    plt.ylabel('z score');
+    plt.title('plasma expt | expt = red | cntl = blue');
+    #hold off;
+    #drawnow;
 
 
